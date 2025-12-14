@@ -8,7 +8,7 @@ function App() {
     //const API_URL = "https://backend-express-ci-cd.onrender.com";
 
     //fetch("http://localhost:4000/api/saludo")
-    fetch("https://backend-express-ci-cd-latest.onrender.com/" + "api/saludo")
+    fetch("https://backend-express-ci-cd-p2rg.onrender.com/api/saludo")
       .then((res) => res.json())
       .then((data) => setMensaje(data.mensaje))
       .catch(() =>
